@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/*--------
+16px
+100%
+rem unknown //we should use rem so that we can make responsive website //
+------------*/
+
+.extarnal{
+    color: indigo;
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+/*---------- Resposive start ------------*/
+html{
+    font-size: 62.5%;
+}
+@media screen and (max-width:1200px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+@media screen and (max-width:1000px) {
+    html{
+        font-size: 52.5%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    html{
+        font-size: 48.5%;
+        background-color: rgb(41, 9, 156);
+    }
+}
+
+@media screen and (max-width:700px) {
+    html{
+        font-size: 38.5%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html{
+        font-size: 28.5%;
+    }
+}
+/*---------- Resposive end ------------*/

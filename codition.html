@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{background-color: rgba(0, 0, 0, 0.774);  color: white;}
+        #displayNumber{background-color: lime; height: 30px;width: 60px; color: white;}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Condition in javascript </title>
+</head>
+<body>
+<center> <div id="time"></div></center>
+<br>
+<form method="post" action="#">
+    <input type="number" onchange="productCount(this.value)" min="1"/>
+    <br>
+    <input type="text"  id="count"  disabled/>
+</form>
+<br><br>
+<div id="displayNumber"> </div>
+<button id="addNumber">add</button>
+<button id="minusNumber">minus</button>
+<script src="jscode.js"></script>
+</body>
+</html>
